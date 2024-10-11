@@ -3,18 +3,20 @@
   <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
   <img src="https://img.shields.io/badge/node.js-5FA04E?style=for-the-badge&logo=node.js&logoColor=black">
   <img src="https://img.shields.io/badge/next.js-black?style=for-the-badge&logo=next.js&logoColor=white">
-
+  <br>
   <img src="https://img.shields.io/badge/chakra ui-319795?style=for-the-badge&logo=chakraui&logoColor=black">
   <img src="https://img.shields.io/badge/puppeteer-40B5A4?style=for-the-badge&logo=puppeteer&logoColor=black">
   <img src="https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=black">
   <img src="https://img.shields.io/badge/aws elastic beanstalk-e88c0c?style=for-the-badge&logo=&logoColor=black">
 </div>
 
-# NotionDrop
+# [NotionDrop](http://notiondrop.eba-a7ppf4xy.ap-northeast-2.elasticbeanstalk.com/)
 
 ![alt text](public/image/flow.png)
 
 > 메모앱인 노션의 페이지 전체 또는 부분을 배포하여 사용자가 원하는만큼의 정보를 전달하는 서비스를 제공합니다.
+
+#### 사용예시) 노션 컨텐츠 중 원하는 블럭만 선택하여 배포 → [예시 샘플 확인하기](http://testsample.notiondrop.site)
 
 ![alt text](public/image/partial-deploy-select.gif)
 
