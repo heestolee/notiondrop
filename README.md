@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/aws elastic beanstalk-e88c0c?style=for-the-badge&logo=&logoColor=black">
   <br><br>
 
-<a href="http://notiondrop.eba-a7ppf4xy.ap-northeast-2.elasticbeanstalk.com/" target="_blank">배포 링크 바로가기</a>
+<a href="http://notiondrop.eba-a7ppf4xy.ap-northeast-2.elasticbeanstalk.com/">배포 링크 바로가기</a>
 
 </div>
 
@@ -46,7 +46,6 @@
     - [1. 문제 정의 : 개별 블럭을 일일이 선택하는건 너무 번거로워 사용자 경험에 좋지 않다.](#1-%EB%AC%B8%EC%A0%9C-%EC%A0%95%EC%9D%98--%EA%B0%9C%EB%B3%84-%EB%B8%94%EB%9F%AD%EC%9D%84-%EC%9D%BC%EC%9D%BC%EC%9D%B4-%EC%84%A0%ED%83%9D%ED%95%98%EB%8A%94%EA%B1%B4-%EB%84%88%EB%AC%B4-%EB%B2%88%EA%B1%B0%EB%A1%9C%EC%9B%8C-%EC%82%AC%EC%9A%A9%EC%9E%90-%EA%B2%BD%ED%97%98%EC%97%90-%EC%A2%8B%EC%A7%80-%EC%95%8A%EB%8B%A4)
     - [2. 접근 방식 : 노션의 계층적 블럭 구조 활용 → 상위 블럭 선택시 하위블럭까지 포함](#2-%EC%A0%91%EA%B7%BC-%EB%B0%A9%EC%8B%9D--%EB%85%B8%EC%85%98%EC%9D%98-%EA%B3%84%EC%B8%B5%EC%A0%81-%EB%B8%94%EB%9F%AD-%EA%B5%AC%EC%A1%B0-%ED%99%9C%EC%9A%A9-%E2%86%92-%EC%83%81%EC%9C%84-%EB%B8%94%EB%9F%AD-%EC%84%A0%ED%83%9D%EC%8B%9C-%ED%95%98%EC%9C%84%EB%B8%94%EB%9F%AD%EA%B9%8C%EC%A7%80-%ED%8F%AC%ED%95%A8)
     - [3. 해결 방안 : 노션의 '블럭' 단위로 묶어서 선택](#3-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EC%95%88--%EB%85%B8%EC%85%98%EC%9D%98-%EB%B8%94%EB%9F%AD-%EB%8B%A8%EC%9C%84%EB%A1%9C-%EB%AC%B6%EC%96%B4%EC%84%9C-%EC%84%A0%ED%83%9D)
-    - [++ 회고 및 개선 방향 : 좀 더 직관적인 방법 적용(Drag & Drop, Positive / Negative)](#-%ED%9A%8C%EA%B3%A0-%EB%B0%8F-%EA%B0%9C%EC%84%A0-%EB%B0%A9%ED%96%A5--%EC%A2%80-%EB%8D%94-%EC%A7%81%EA%B4%80%EC%A0%81%EC%9D%B8-%EB%B0%A9%EB%B2%95-%EC%A0%81%EC%9A%A9drag--drop-positive--negative)
   - [3-3. 부분 배포 시 미리보기 구현](#3-3-%EB%B6%80%EB%B6%84-%EB%B0%B0%ED%8F%AC-%EC%8B%9C-%EB%AF%B8%EB%A6%AC%EB%B3%B4%EA%B8%B0-%EA%B5%AC%ED%98%84)
     - [1. 문제 정의 : 미리보기를 제공하지 않으면 사용성이 떨어진다.](#1-%EB%AC%B8%EC%A0%9C-%EC%A0%95%EC%9D%98--%EB%AF%B8%EB%A6%AC%EB%B3%B4%EA%B8%B0%EB%A5%BC-%EC%A0%9C%EA%B3%B5%ED%95%98%EC%A7%80-%EC%95%8A%EC%9C%BC%EB%A9%B4-%EC%82%AC%EC%9A%A9%EC%84%B1%EC%9D%B4-%EB%96%A8%EC%96%B4%EC%A7%84%EB%8B%A4)
     - [2. 접근 방식 : `useState`로 미리보기 화면에 선택한 블럭 상태를 전달](#2-%EC%A0%91%EA%B7%BC-%EB%B0%A9%EC%8B%9D--usestate%EB%A1%9C-%EB%AF%B8%EB%A6%AC%EB%B3%B4%EA%B8%B0-%ED%99%94%EB%A9%B4%EC%97%90-%EC%84%A0%ED%83%9D%ED%95%9C-%EB%B8%94%EB%9F%AD-%EC%83%81%ED%83%9C%EB%A5%BC-%EC%A0%84%EB%8B%AC)
