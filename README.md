@@ -219,6 +219,10 @@ Page Router 방식으로 구현된 프로젝트의 핵심 기술은 `getStaticPr
 - <U>React Server Components 지원</U></br>
   : Page Router에는 지원되지 않는 React Server Components와의 통합을 지원하여, 서버에서 데이터를 처리하고 렌더링하여 클라이언트로 전송하는 작업이 더욱 효율적으로 이루어집니다. 이를 통해 클라이언트 측에서 불필요한 자바스크립트 번들을 줄이고, 성능 향상을 기대할 수 있습니다.
 
-이는 레퍼런스가 없는 상황에서도 새로운 구조로 작업을 진행할 수 있었던 이유가 되었습니다.
+이는 레퍼런스가 없는 상황에서도 공식 문서 React Server Component, React Client Component에 대해 어떤 차이점이 있는지 이해하게 되면서 렌더링 동작방식에 대해 실제 적용을 통해 더 와닿게 알게 되어 Next.js에 대해서도, React에 대해서도 조금 더 동작방식이 익숙해진 것 같습니다.
 
-이 과정에서 Next.js의 작동 원리에 대한 깊은 이해를 얻게 되었고, 공식 문서를 참고하며 작업하는 방법에 대한 경험치도 많이 쌓을 수 있었습니다.
+![app router 렌더링](public/image/switching-to-dynamic-rendering.png)
+
+공식 문서의 일부를 발췌한 내용으로, 이번 프로젝트를 하며 Page Router와 가장 큰 차이라고 생각되는 부분이었습니다.
+
+Page Router의 경우 SSR, SSG 방식의 렌더링을 직접 정해줘야 하는데 App Router는 그럴 필요없이 기본적으로 SSG로 렌더링 되고 캐싱되지 않은 동적 함수를 찾으면 자동으로 내부에서 SSR을 채택하고, 랜더링 작업을 청크로 쪼개어 효율적으로 렌더링하는 '스트리밍'이라는 기술도 내장되어 있어 자동으로 적용해주는 등 Next.js의 App Router 방식에 대해 단순히 React Server Component를 지원하는 프레임워크를 다뤄본 이상으로 SSR, SSG 방식의 렌더링을 하는 방식에 여러 구조적 이점에 대해 깊은 이해를 얻게 된 계기도 되었다고 생각합니다.
